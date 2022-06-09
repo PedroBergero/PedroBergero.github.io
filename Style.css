@@ -10,10 +10,8 @@
     grid-row: auto;
     justify-items: center;
 color: #009bff;
-font-size: 1000%;
-font-family:monospace;
-
-}
+font-size: 30%;
+font-family:monospace;}
 
 
 .tituloss{
@@ -63,6 +61,7 @@ body{
 
     /*Responsive*/
 
+   
     @media screen and (min-width: 320px){ .menu{font-family: Arial, Helvetica, sans-serif;
         text-decoration:none;
         font-size: 70%;
@@ -81,7 +80,7 @@ body{
         margin: 0%;
         padding: 0%;
         background: url(Index\ background.png);   
-        background-size: 2610px;
+        background-size: 1900px;
         background-position: center;
         background-repeat:no-repeat;} 
 
@@ -214,11 +213,12 @@ body{
 
     @media screen and (min-width: 1200px) {.menu{
             font-family: Arial, Helvetica, sans-serif;
-            text-decoration:none;
+            font-size: 20px;
+            text-decoration:#7ed957;
             color: #7ed957;
             background-color: #009bff;
             display: grid;
-            grid-template-columns: 50px 250px 250px 250px 250px 250px 250px;
+            grid-template-columns: 50px 200px 250px 200px 160px ;
             grid-template-rows: 50px;
             grid-template-areas:"header";
             justify-items: end;
@@ -230,10 +230,7 @@ body{
                 background: url(Index\ background.png);   
                 background-size: 2800px;
                 background-position: center;
-                background-repeat: no-repeat;
+                background-repeat: no-repeat;}
          
-            } 
-            } 
-        
-  
-    
+           
+        }   
