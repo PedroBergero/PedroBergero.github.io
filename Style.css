@@ -20,7 +20,7 @@ font-family:monospace;}
     grid-row: auto;
     justify-items: center;
 color: #009bff;
-font-size: 500%;
+font-size: 300%;
 font-family:monospace;
 
 }
@@ -28,7 +28,6 @@ font-family:monospace;
 
     .menu{
         font-family: Arial, Helvetica, sans-serif;
-        text-decoration:none;
         color: #7ed957;
         background-color: #009bff;
         display: grid;
@@ -36,9 +35,30 @@ font-family:monospace;
         grid-template-rows: 50px;
         grid-template-areas:"header";
         justify-items: end;
-        opacity: 70%;
+        opacity: 100%;
+    
 
     }
+
+    .menu a {
+        text-decoration: none;
+color: #7ed957; }
+
+.menu a:hover{
+color:greenyellow ;
+font-size: 105%;    
+}
+
+.textos{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:large;
+    margin-left: 34%;
+    color: #7ed957;
+}
+.mapa{
+    margin-left: 35%;
+margin-bottom: 20px;
+}
 
 body{
      margin: 0;
@@ -48,7 +68,7 @@ body{
     .index{
         margin: 0;
         padding: 0;
-        background: url(Index\ background.png);   
+        background: url(index\ background.jpg);   
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -165,8 +185,9 @@ body{
             justify-items:center;
         color: #009bff;
         font-size: 700%;
-        font-family:monospace;
-        padding-top:300px;  }
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-top:px;  
+    }
      
 
     }
@@ -228,9 +249,14 @@ body{
                 margin: 0;
                 padding: 0;
                 background: url(Index\ background.png);   
-                background-size: 2800px;
+                background-size: 1490px;
                 background-position: center;
                 background-repeat: no-repeat;}
          
            
         }   
+
+.Instalaciones{
+    background-color: #474542;
+}
+
